@@ -9,11 +9,14 @@ HF_TOKEN = os.environ.get("HF_TOKEN")
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
+# new line to br tag conversion
+# --------------------------
 from markupsafe import Markup
 def nl2br(value):
     return Markup(value.replace("\n" , "<br>\n"))
 
 app.jinja_env.filters['nl2br'] = nl2br
+# ----------------------------
 
 @app.route("/" , methods=["GET","POST"])
 def index():

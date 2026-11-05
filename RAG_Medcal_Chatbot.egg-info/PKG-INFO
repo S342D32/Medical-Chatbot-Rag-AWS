@@ -5,9 +5,12 @@ Author: Ashis
 Requires-Dist: langchain
 Requires-Dist: langchain_community
 Requires-Dist: langchain_huggingface
+Requires-Dist: langchain_text_splitters
+Requires-Dist: langchain_classic
 Requires-Dist: faiss-cpu
 Requires-Dist: pypdf
 Requires-Dist: huggingface_hub
+Requires-Dist: sentence-transformers
 Requires-Dist: flask
 Requires-Dist: python-dotenv
 Dynamic: author

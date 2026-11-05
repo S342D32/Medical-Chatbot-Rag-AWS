@@ -18,7 +18,7 @@ env/
 dist/
 build/
 *.egg
-
+RAG_Medcal_Chatbot.egg-info/
 # Data files (large PDFs)
 data/
 

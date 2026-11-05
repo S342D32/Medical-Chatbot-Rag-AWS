@@ -1,0 +1,46 @@
+# Environment variables (secrets, API keys)
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Egg / build artifacts
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Data files (large PDFs)
+data/
+
+# Vector store / chroma DB (if persisted locally)
+chroma_db/
+vectorstore/
+*.db
+*.sqlite
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE / OS files
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+.coverage
+htmlcov/
